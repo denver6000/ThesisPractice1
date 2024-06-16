@@ -58,6 +58,7 @@ expressApp.use(
 )
 
 
-httpServer.listen(port, () => {
-    console.log(`Listening on ${port}`)
-})
+// httpServer.listen(port, () => {
+//     console.log(`Listening on ${port}`)
+// })
+console.log("Done")

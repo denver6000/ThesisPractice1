@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
-      "module": "Node16",
+      "module": "NodeNext",
       "noImplicitAny": true,
       "removeComments": true,
       "preserveConstEnums": true,
       "moduleResolution": "Node16",
       "esModuleInterop": true,
-      "sourceMap": true
+      "sourceMap": false,
+      "outDir": "dist"
     },
     "include": ["src/**/*"],
   }

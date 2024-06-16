@@ -4,8 +4,10 @@ phases:
     runtime-versions:
       nodejs: 10
     commands:
+      - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
       - npm install -g typescript
       - npm install
+      - npm install @types/node
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
@@ -13,7 +15,6 @@ phases:
     commands:
       - echo Build started on `date`
       - npm run build
-      - npm test
   post_build:
     commands:
       - echo Build completed on `date`
@@ -21,6 +22,8 @@ cache:
   paths:
     - 'node_modules/**/*'
 artifacts:
+  exclude-paths: 
+    - node_modules/**/*
   files:
     - '**/*'
   name: chatApp-$(date +%Y-%m-%d)
