@@ -5,6 +5,8 @@ phases:
       nodejs: 10
     commands:
       - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+      - nvm install 18
+      - nvm use 18
       - npm install -g typescript
       - npm install
       - npm install @types/node
