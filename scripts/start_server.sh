@@ -3,4 +3,4 @@
 cd var/node/app
 ls
 which pm2
-npm run start
+sudo npm run start
