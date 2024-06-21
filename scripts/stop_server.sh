@@ -8,5 +8,6 @@ export NVM_DIR="$HOME/.nvm"
 cd var/node/app
 set -e
 which pm2
-npm run stop
+nvm use 17
+sudo npm run stop
 
