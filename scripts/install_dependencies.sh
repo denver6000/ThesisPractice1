@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "hi"
+echo pwd
 cd ../
 nvm use 17
 npm i 
