@@ -48,14 +48,14 @@ const port = 80 || process.env.PORT
 
 expressApp.set('view engine', 'ejs')
 
-expressApp.use(
-    session({
-        store: new MSSQLStore(config), // options are optional
-        secret: 'supersecret',
-        resave: false,
-        saveUninitialized: false
-    }),
-)
+// expressApp.use(
+//     session({
+//         store: new MSSQLStore(config), // options are optional
+//         secret: 'supersecret',
+//         resave: false,
+//         saveUninitialized: false
+//     }),
+// )
 expressApp.get("/", (req, res) => {
     res.send(200)
 })
