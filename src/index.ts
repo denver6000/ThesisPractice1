@@ -56,9 +56,10 @@ expressApp.use(
         saveUninitialized: false
     }),
 )
-
-
-// httpServer.listen(port, () => {
-//     console.log(`Listening on ${port}`)
-// })
+expressApp.get("/", (req, res) => {
+    res.send(200)
+})
+httpServer.listen(port, () => {
+    console.log(`Listening on ${port}`)
+})
 console.log("Done")
