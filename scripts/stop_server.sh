@@ -3,5 +3,5 @@
 cd var/node/app
 ls
 set -e
-pm2 stop index
+sudo /usr/bin/pm2 stop index
 

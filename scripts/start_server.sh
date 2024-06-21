@@ -2,4 +2,4 @@
 
 cd var/node/app
 ls
-pm2 restart dist/index.js
+sudo /usr/bin/pm2 restart dist/index.js
