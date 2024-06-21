@@ -1,2 +1,4 @@
 #!/bin/bash
-pm2 start dist/index.js
+
+cd var/node/app
+pm2 restart dist/index.js
