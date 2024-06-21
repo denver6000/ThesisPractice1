@@ -1,4 +1,5 @@
 #!/bin/bash
+pwd
 nvm use 17
 npm i 
 npm i pm2 - g
