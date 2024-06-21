@@ -9,4 +9,4 @@ cd var/node/app
 ls
 which pm2
 nvm use 17
-sudo npm run start
+npm run start
