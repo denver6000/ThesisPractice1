@@ -1,5 +1,5 @@
 #!/bin/bash
-echo pwd
+cd ../
 nvm use 17
 npm i 
 npm i pm2 - g
