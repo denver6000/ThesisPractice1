@@ -2,5 +2,6 @@
 
 cd var/node/app
 set -e
-sudo pm2 stop index
+which pm2
+npm run stop
 

@@ -2,4 +2,5 @@
 
 cd var/node/app
 ls
-sudo pm2 restart dist/index.js
+which pm2
+npm run start
