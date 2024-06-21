@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "hi"
-echo pwd
+pwd
 cd ../
 nvm use 17
 npm i 
