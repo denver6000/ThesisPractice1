@@ -3,6 +3,6 @@ ls
 cd var/node/app
 echo "cd"
 ls
-nvm
+nvm use 17
 npm i
 npm i @types/node
